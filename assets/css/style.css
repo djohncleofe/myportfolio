@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*Navbar*/
+[alt*=brand-logo] {
+	margin-right: 5%;
+}
+.navbar-logo {
+	width: 30px;
+	height: 30px;
+}
+.social-links {
+	font-size: 30px;
+	padding: 0;
+	margin: 0;
+	color: #b3b3b3; 
+}
+
+/*Intro*/
+#me {
+	border: 1px solid #757678; /*lightgrey*/
+	border-radius: 50%;
+}
+.self-sub {
+	text-align: center;
+	color: white;
+	text-shadow: 3px 3px black;
+}
+.bio {
+	text-shadow: 1px 1px black;
+	font-size: 17px;	
+}
+.self-main {
+	padding-top: 18.9%;
+	padding-bottom: 18.8%;
+	background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../images/about-background2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh; 
+}
+/*ABOUT*/
+#skills {
+	min-height: 80vh;
+	background-color: #212529;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+.skills {
+	color: black;
+}
+#web-skill {
+	color: black;
+}
+.card {
+	border-radius: 20px; 
+}
+.about-name {
+	letter-spacing: .1em;
+}
+.about-description {
+	letter-spacing: .1em;
+}
+/*PROJECT*/
+.project {
+	min-height: 20vh;
+}
+/*CONTACTS*/
+.contact {
+	height: 65vh;	
+}
+.headr {
+	height: 10px;
+}
+.contact-info {
+	padding-top: 20%;
+}
+.cont-para {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+/*FOOTER*/
+.footer-container {
+	height: 10vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;	
+}
+
+
+
+/*OVERRIDES*/
+.color-white {
+	color: white;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.blue {
+	background-color: blue;
+}
+.color-black {
+	color: black;
+}
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+
+/*mobile styles*/
+@media only screen and (max-width: 400px) {
+	.navbar-social{
+		display: none; 
+	}
+	.self-main {
+	padding-top: 26.8%;
+	padding-bottom: 26.8%;
+	}
+	#web-skill {
+	font-size: 1.8em;
+	text-align: center;
+	}
+	.footer-container {
+		margin-top: 55vh;
+	}
+	.disclaimer-footer {
+		font-size: .2em;
+	}
+}
+
+/*table styles*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.navbar-social{
+		display: none; 
+	}
+	.self-main {
+	padding-top: 45.5%;
+	padding-bottom: 45.4%;
+	}
+	#web-skill {
+	text-align: center;
+	}	
+}
+
+/*desktop style*/
+@media only screen and (min-width: 961px) {
+
+} 
